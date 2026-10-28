@@ -1,0 +1,24 @@
+name: nabard_danesh_mobile
+description: بازی آموزشی آفلاین نبرد دانش‌آموزی برای اندروید و iOS
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  file_picker: ^8.1.2
+  share_plus: ^10.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/questions/questions.json

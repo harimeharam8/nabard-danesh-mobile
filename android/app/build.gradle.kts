@@ -1,4 +1,4 @@
-plugins {
+﻿plugins {
     id("com.android.application")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.nabard_danesh_mobile"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 36
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
@@ -47,3 +47,4 @@ kotlin {
 flutter {
     source = "../.."
 }
+
